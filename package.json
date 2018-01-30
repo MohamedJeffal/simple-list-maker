@@ -1,0 +1,11 @@
+{
+  "name": "listMaker",
+  "version": "0.0.1",
+  "description": "A simple list builder from online data",
+  "main": "index.js",
+  "author": "MohamedJeffal",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.5.1"
+  }
+}
