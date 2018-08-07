@@ -2,9 +2,22 @@
     <head>
         <title>Simple list maker</title>
         <meta charset="UTF-8"/>
+        <link type="text/css" rel="stylesheet" href="./css/base.css">
     </head>
     <body>
-        <div id="hn-list"></div>
-        <script src="./index.js"></script>
+        <div class="column-holder" style="position: relative; height: 0px">
+            <div class="grid-sizer"></div>
+            <div style="position: absolute;width: 50%;height: 100%;left: 0px;top: 0px;">
+                <div class="holder">
+                    <div id="hn-list"></div>
+                </div>
+            </div>
+            <div style="position: absolute; width: 50%; height: 100%; left: 677px; top: 0px;">
+                    <div class="holder">
+                        <div id="ph-list"></div>
+                    </div>
+            </div>
+        </div>
+        <script src="./index.ts"></script>
     </body>
 </html>
